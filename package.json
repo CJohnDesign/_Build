@@ -1,7 +1,7 @@
 {
-  "name": "l2d-weapons-catalog",
-  "version": "0.2.1",
-  "description": "catalog of custom firearms",
+  "name": "CJohnDesign Site Build Template",
+  "version": "v1.0",
+  "description": "Setup with Bootstrap, Sass and Grunt Workflow",
   "repository" :
   { "type" : "git", 
   "url" : "https://github.com/npm/npm.git"},
