@@ -9,4 +9,4 @@ It uses:
 * [Grunt](http://gruntjs.com/)
 
 ## Share:
-[repository located here](https://github.com/cjohndesign/_build)
+[github.com/cjohndesign/_build](https://github.com/cjohndesign/_build)
