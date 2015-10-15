@@ -1,7 +1,7 @@
 {
   "name": "CJohnDesign Site Build Template",
   "version": "v1.0",
-  "description": "Setup with Bootstrap, Sass and Grunt Workflow",
+  "description": "Workflow Setup with Bootstrap, Sass and Grunt",
   "repository" :
   { "type" : "git", 
   "url" : "https://github.com/npm/npm.git"},
