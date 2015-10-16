@@ -2,7 +2,7 @@
 
 [_build](https://github.com/cjohndesign/_build) is a precomposed filesystem and workflow to build web apps. Primarily, it is for web designers new to [Sass](http://sass-lang.com/) or struggleing with the processing. It uses [Grunt](http://gruntjs.com/) to generate minified css and js files and has [Bootstrap](http://getbootstrap.com/) already installed. 
 
-## Requirements
+## Install Instructions
 
 | Prerequisite    | How to check | How to install
 | --------------- | ------------ | ------------- |
