@@ -17,16 +17,14 @@
 
 ## Recommended Software
 
-| Prerequisite    														| 
-| --------------- 														| 
 | [Sublime Text](http://www.sublimetext.com/) 							| 
 | [Emmet for Sublime Text](https://github.com/sergeche/emmet-sublime)	| 
 | [Mamp](https://www.mamp.info/)				  						| 
 
-> Once you have these things installed, navigate to the _build-master folder in the terminal. 
+> Once you have these things installed, have Mamp up and running, navigate to the _build-master folder in the terminal and enter `grunt`. Grunt is now monitoring that folder for changes. If it sees a change, the results reload live to the browser automatically.  
 
 ## Share:
-I hope you found this helpful 
 [github.com/cjohndesign/_build](https://github.com/cjohndesign/_build)
 
+I hope you found this helpful. If you have a question, email me at cjohndesign@gmail.com.
 (MIT License)
