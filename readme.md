@@ -17,6 +17,7 @@
 
 ## Recommended Software
 
+| --------------------------------------------------------------------- |
 | [Sublime Text](http://www.sublimetext.com/) 							| 
 | [Emmet for Sublime Text](https://github.com/sergeche/emmet-sublime)	| 
 | [Mamp](https://www.mamp.info/)				  						| 
