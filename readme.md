@@ -17,6 +17,7 @@
 
 ## Recommended Software
 
+| Software																| Description 					   |
 | --------------------------------------------------------------------- | -------------------------------- |
 | [Sublime Text](http://www.sublimetext.com/) 							| Free Text Editor			       |
 | [Emmet for Sublime Text](https://github.com/sergeche/emmet-sublime)	| Makes writing html awesome again |
