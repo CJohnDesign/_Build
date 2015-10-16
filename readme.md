@@ -17,16 +17,16 @@
 
 ## Recommended Software
 
-| --------------------------------------------------------------------- |
-| [Sublime Text](http://www.sublimetext.com/) 							| 
-| [Emmet for Sublime Text](https://github.com/sergeche/emmet-sublime)	| 
-| [Mamp](https://www.mamp.info/)				  						| 
+| --------------------------------------------------------------------- | -------------------------------- |
+| [Sublime Text](http://www.sublimetext.com/) 							| Free Text Editor			       |
+| [Emmet for Sublime Text](https://github.com/sergeche/emmet-sublime)	| Makes writing html awesome again |
+| [Mamp](https://www.mamp.info/)				  						| Hosts website locally
 
-Once you have these things installed, have Mamp up and running, navigate to the _build-master folder in the terminal and enter `grunt`. Grunt is now monitoring that folder for changes. If it sees a change, the results reload live to the browser automatically.  
+Once you have these things installed, have Mamp up and running, navigate to the _build-master folder in the terminal and enter `grunt`. Grunt is now monitoring that folder for changes. If it sees a change, the results reload live to the browser. This is a streamline process to begin hard-coding an contemporary website. 
 
 ## Share:
 [github.com/cjohndesign/_build](https://github.com/cjohndesign/_build)
 
-I hope you found this helpful. If you have a question, email me at cjohndesign@gmail.com.
+I hope you found this helpful. If you have a question or find a bug, email me at cjohndesign@gmail.com.
 
 > (MIT License)
