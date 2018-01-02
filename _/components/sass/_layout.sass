@@ -1,12 +1,41 @@
 // Base
+
 svg
-	display 			: block
+	display 								: block
+	overflow 								: hidden
 
 // Nav 	
  	
  	
 // Main Content
- 	
+
+#main-contain
+	background-color 						: white
+	margin 									: 0 auto
+	max-width 								: $screen-xl-min
+	@media (min-width: $screen-sm-min)
+		.container 	
+			width 							: 100%
+			padding-right 					: $lp-contain--pad 
+			padding-left 					: $lp-contain--pad 
+	@media (min-width: $screen-md-min)
+		max-width 							: 100%
+		.container 	
+			width 							: 100%
+			padding-right 					: $lp-contain--pad 
+			padding-left 					: $lp-contain--pad 
+	@media (min-width: $screen-lg-min)
+		max-width 							: 100%
+		.container
+			width 							: 100%
+			padding-right 					: $lp-contain--pad 
+			padding-left 					: $lp-contain--pad 
+	@media (min-width: $screen-xl-min)
+		max-width 							: $screen-xl-min
+		.container
+			width 							: $screen-xl-min
+			padding-right 					: $lp-contain--pad 
+			padding-left 					: $lp-contain--pad	
  	
 // Secondary Content 	
  	

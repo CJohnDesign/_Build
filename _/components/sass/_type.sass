@@ -6,26 +6,48 @@ body
  	
 h1 	
 	font-family        	: $type
-	color              	: $theme_color
-	font-size 			: 3.998em
+	color              	: $color--pri
+	font-size 			: $h1
 	font-weight        	: 100
 
 h2 	
 	font-family        	: $type
-	color              	: $theme_color
-	font-size 			: 2.827em
+	color              	: $color--pri
+	font-size 			: $h2
 
 h3	
 	font-family        	: $type
-	color              	: $theme_color
-	font-size 			: 1.999em
+	color              	: $color--sec
+	font-size 			: $h3
 
 h4	
 	font-family        	: $type
-	color              	: $theme_color
-	font-size 			: 1.414em
+	color              	: $color--sec
+	font-size 			: $h4
  	
 p 	
 	font-family        	: $type
 	color              	: $g4
 	font-size 			: 1.05em
+
+a
+	@include transition (.1s)
+	color 				: $color--pri
+	&:hover
+		color 			: $color--sec
+		
+
+
+li
+	margin-bottom 							: 8px
+	max-width 								: 88%
+
+
+@media (max-width: $screen-xs-max)
+	h1
+		font-size 							: $h1--sm
+	h2
+		font-size 							: $h2--sm
+	ul
+		font-size 							: $h3--sm
+		font-weight 						: 300
