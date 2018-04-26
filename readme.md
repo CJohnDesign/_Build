@@ -14,6 +14,9 @@
 | 				  | 		   	 | `\curl -sSL https://get.rvm.io | bash -s stable` |
 | compass		  | `compass -v` | `gem update --system` |
 | 				  | 		   	 | `gem install compass` |
+| dependencies		  |   | cd .../_build `npm install` |
+| 				  | 		   	 | `grunt` |
+| 				  | 		   	 | You're ready to start coding! |
 
 > Note: Text in the above table notated like `this` are terminal commands. Install node.js from the download, then run the commands under "How to install" in the terminal, in order. 
 
