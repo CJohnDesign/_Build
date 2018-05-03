@@ -3,7 +3,7 @@
 [_build](https://github.com/cjohndesign/_build) is a precomposed filesystem and workflow to build web apps. Primarily, it is for web designers new to [Sass](http://sass-lang.com/) or struggleing with the processing. It uses [Grunt](http://gruntjs.com/) to generate minified css and js files and has [Bootstrap](http://getbootstrap.com/) already installed. 
 
 
-## Install Instructions
+## Install Instructions (From scratch)
 
 | Prerequisite    | How to check | How to install
 | --------------- | ------------ | ------------- |
@@ -11,8 +11,8 @@
 | grunt-cli 	  | `grunt -v`   | `npm install -g grunt-cli` |
 | Homebrew 	  | `brew -v`   | `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`|
 | | | `brew install gnupg gnupg2`|
-| rvm			  | `rvm -v`   	 | `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3` |
-| 				  | 		   	 | `\curl -sSL https://get.rvm.io | bash -s stable` |
+| rvm			  | `rvm -v`   	 | `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB` |
+| 				  | 		   	 | `\curl -sSL https://get.rvm.io \| bash -s stable` |
 | compass		  | `compass -v` | `gem update --system` |
 | 				  | 		   	 | `gem install compass` |
 | dependencies		  |   | cd .../_build `npm install` |
