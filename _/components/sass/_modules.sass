@@ -1,18 +1,18 @@
 // Youtube - Responsive iFrames	
 
 .video-wrapper 
-	max-width 					: 88%
-	margin 						: 0 auto
-	position 					: relative
-	padding-bottom 				: 56.25%
-	padding-top 				: 25px
-	height 						: 0
+	max-width 								: 88%
+	margin 									: 0 auto
+	position 								: relative
+	padding-bottom 							: 56.25%
+	padding-top 							: 25px
+	height 									: 0
 	iframe 
-		position 				: absolute
-		top 					: 0
-		left 					: 0
-		width 					: 100%
-		height 					: 100%
+		position 							: absolute
+		top 								: 0
+		left 								: 0
+		width 								: 100%
+		height 								: 100%
 
 
 
@@ -79,6 +79,3023 @@
 
 
 
+// Stolen
 
+body
+	line-height 									: 1
+	background-color 								: #232323
+	color 											: #ffffff
+	margin 											: 0
+	-webkit-font-smoothing 							: antialiased
+	-moz-osx-font-smoothing 						: grayscale
+	-webkit-text-size-adjust 						: none
+	-moz-text-size-adjust 							: none
+	-ms-text-size-adjust 							: none
+	text-rendering 									: optimizeLegibility
+	-webkit-tap-highlight-color 					: transparent
+
+input, textarea, select, button
+	-webkit-font-smoothing 							: antialiased
+	-moz-osx-font-smoothing 						: grayscale
+	-webkit-text-size-adjust 						: none
+	-moz-text-size-adjust 							: none
+	-ms-text-size-adjust 							: none
+	text-rendering 									: optimizeLegibility
+	-webkit-tap-highlight-color 					: transparent
+
+body *
+	-moz-box-sizing 								: border-box
+	-webkit-box-sizing 								: border-box
+	box-sizing 										: border-box
+	margin 											: 0
+
+a
+	text-decoration 								: none
+	cursor 	 										: pointer
+	& :focus
+		outline 									: none
+		-moz-outline-style 							: none
+
+img
+	display 										: inline-block
+	max-width 										: 100%
+	vertical-align 									: middle
+	-webkit-user-select 							: none
+	-khtml-user-select 								: none
+	-moz-user-select 								: none
+	-o-user-select 						 			: none
+	user-select 									: none
+	border 											: none
+	position 										: relative
+	top 											: -1px
+
+div
+	position 										: relative
+
+ul, ol, li
+	list-style 										: none
+	padding 										: 0
+
+.paragraph
+	ul, ol, li
+		list-style 										: initial
+		padding 										: inital
+	li
+		margin-bottom 									: 15px
+		margin-left 									: 25px
+
+.captiv-logo
+	vertical-align 					 				: middle
+	img
+		max-width 									: 7em
+
+@media (max-width: $screen-xs-max)
+	.captiv-logo
+		width 										: 90px
+		height 										: 20px
+		background-size 							: 90px 20px
+		margin 										: 0 15px 0 15px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.captiv-logo
+		width 										: 90px
+		height 										: 20px
+		background-size 							: 90px 20px
+		margin 										: 0 15px 0 15px
+
+.captiv-title
+	font-family 									: sans-serif
+	font-size 										: 16px
+	font-size 										: 1rem
+	line-height 									: 27px
+	line-height 									: 1.6875em
+	font-weight 									: normal
+	font-style 										: normal
+	display 										: inline-block
+
+@media (max-width: 1023px)
+	.captiv-title
+		display 									: none
+
+@media (max-height: 865px) and (min-width: 750px)
+	.captiv-title
+		font-family 								: sans-serif
+		font-size 									: 14px
+		font-size 									: 0.875rem
+		line-height 								: 25px
+		line-height 								: 1.78571em
+		font-weight 								: normal
+		font-style 									: normal
+
+#Site
+	position 										: fixed
+	top 											: 0
+	right 											: 0
+	bottom 											: 0
+	left 											: 0
+	margin 											: auto
+	display 										: block
+	height 											: 100%
+	width 											: 100%
+
+.impress-not-supported #Site
+	position: relative
+	overflow: hidden
+
+.iconLine
+	margin-left: -10px
+
+.iconSet
+	color: #6e6e6e
+	font-family: sans-serif
+	font-size: 180px
+	font-size: 11.25rem
+	line-height: 191px
+	line-height: 1.06111em
+	font-weight: normal
+	font-style: normal
+	display: inline-block
+
+.creditText
+	color: #6e6e6e
+	text-align: center
+
+.ie8 .creditText
+	font-family: sans-serif
+	font-size: 15px
+	font-size: 0.9375rem
+	line-height: 26px
+	line-height: 1.73333em
+	font-weight: normal
+	font-style: normal
+
+@media (min-width: 1024px)
+	.creditText
+		font-family: sans-serif
+		font-size: 15px
+		font-size: 0.9375rem
+		line-height: 26px
+		line-height: 1.73333em
+		font-weight: normal
+		font-style: normal
+
+@media (min-width: $screen-sm-min) and (max-width: 1023px)
+	.creditText
+		font-family: sans-serif
+		font-size: 18px
+		font-size: 1.125rem
+		line-height: 29px
+		line-height: 1.61111em
+		font-weight: normal
+		font-style: normal
+
+@media (max-width: $screen-xs-max)
+	.creditText
+		font-family: sans-serif
+		font-size: 30px
+		font-size: 1.875rem
+		line-height: 41px
+		line-height: 1.36667em
+		font-weight: normal
+		font-style: normal
+
+.creditLink
+	color: #6e6e6e
+	text-decoration: underline
+	-moz-transition: all 0.2s ease
+	-o-transition: all 0.2s ease
+	-webkit-transition: all 0.2s ease
+	transition: all 0.2s ease
+	&:hover
+		color: #ffffff
+
+.bar, #Header, #Footer
+	display: block
+	background: #232323
+	width: 100%
+	pointer-events: auto
+	position: absolute
+	z-index: 2
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	-o-user-select: none
+	user-select: none
+
+.ie8
+	.bar, #Header, #Footer
+		height: 90px
+		line-height: 90px
+
+@media (min-width: $screen-sm-min)
+	.bar, #Header, #Footer
+		height: 90px
+		line-height: 90px
+
+@media (max-width: $screen-xs-max)
+	.bar, #Header, #Footer
+		height: 50px
+		line-height: 50px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.bar, #Header, #Footer
+		height: 50px
+		line-height: 50px
+
+.barBox, .Share-box, .Progress
+	border-left: 1px solid #333333
+	display: inline-block
+
+.ie8
+	.barBox, .Share-box, .Progress
+		height: 90px
+		line-height: 90px
+
+@media (min-width: $screen-sm-min)
+	.barBox, .Share-box, .Progress
+		height: 90px
+		line-height: 90px
+
+@media (max-width: $screen-xs-max)
+	.barBox, .Share-box, .Progress
+		height: 50px
+		line-height: 50px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.barBox, .Share-box, .Progress
+		height: 50px
+		line-height: 50px
+
+#Header
+	border-bottom: 1px solid #333333
+	top: 0
+	right: 0
+	bottom: auto
+	left: 0
+
+#Footer
+	border-top: 1px solid #333333
+	top: auto
+	right: 0
+	bottom: 0
+	left: 0
+
+.impress-not-supported
+	#Header
+		position: fixed
+	#Footer
+		display: none
+
+.normalText
+	font-family: sans-serif
+	font-size: 25px
+	font-size: 1.5625rem
+	line-height: 36px
+	line-height: 1.44em
+	font-weight: normal
+	font-style: normal
+
+.ie8 .paragraph
+	font-family: sans-serif
+	font-size: 20px
+	font-size: 1.25rem
+	line-height: 31px
+	line-height: 1.55em
+	font-weight: normal
+	font-style: normal
+
+@media (min-width: $screen-sm-min)
+	.paragraph
+		font-family: sans-serif
+		font-size: 20px
+		font-size: 1.25rem
+		line-height: 31px
+		line-height: 1.55em
+		font-weight: normal
+		font-style: normal
+
+@media (max-width: $screen-xs-max)
+	.paragraph
+		font-family: sans-serif
+		font-size: 40px
+		font-size: 1.45rem
+		line-height: 41px
+		line-height: 1.36667em
+		font-weight: normal
+		font-style: normal
+
+@media (max-width: $screen-ipx)
+	.paragraph
+		font-size: 36px
+		font-size: 2rem
+
+@media (max-width: $screen-ip5)
+	.paragraph
+		font-size: 29px
+		font-size: 1.85rem
+
+
+.microText
+	font-family: sans-serif
+	font-size: 30px
+	font-size: 1.875rem
+	line-height: 41px
+	line-height: 1.36667em
+	font-weight: normal
+	font-style: normal
+
+.smallestText
+	font-family: sans-serif
+	font-size: 44px
+	font-size: 2.75rem
+	line-height: 55px
+	line-height: 1.25em
+	font-weight: normal
+	font-style: normal
+
+@media (max-width: $screen-ipx)
+	.smallestText
+		font-size: 50px
+		font-size: 3.15rem
+
+
+
+@media (max-width: $screen-ip5)
+	.smallestText
+		font-size: 48px
+		font-size: 3.05rem
+
+
+
+
+.smallestText--normal
+	font-family: sans-serif
+	font-size: 44px
+	font-size: 2.75rem
+	line-height: 55px
+	line-height: 1.25em
+	font-weight: normal
+	font-style: normal
+
+.smallerText
+	font-family: sans-serif
+	font-size: 60px
+	font-size: 3.75rem
+	line-height: 71px
+	line-height: 1.18333em
+	font-weight: normal
+	font-style: normal
+
+.basicText
+	font-family: sans-serif
+	font-size: 80px
+	font-size: 5rem
+	line-height: 91px
+	line-height: 1.1375em
+	font-weight: normal
+	font-style: normal
+
+@media (max-width: $screen-ipx)
+	.basicText
+		font-size 						: 7em
+
+@media (max-width: $screen-ip5)
+	.basicText
+		font-size 						: 6em
+
+.mediumText
+	font-family: sans-serif
+	font-size: 90px
+	font-size: 5.625rem
+	line-height: 101px
+	line-height: 1.12222em
+	font-weight: normal
+	font-style: normal
+
+.bigText
+	font-family: sans-serif
+	font-size: 120px
+	font-size: 7.5rem
+	line-height: 131px
+	line-height: 1.09167em
+	font-weight: normal
+	font-style: normal
+
+.biggerText
+	font-family: sans-serif
+	font-size: 140px
+	font-size: 8.75rem
+	line-height: 151px
+	line-height: 1.07857em
+	font-weight: normal
+	font-style: normal
+
+.biggestText
+	font-family: sans-serif
+	font-size: 220px
+	font-size: 13.75rem
+	line-height: 231px
+	line-height: 1.05em
+	font-weight: normal
+	font-style: normal
+	line-height: 200px
+
+.massiveText
+	font-family: sans-serif
+	font-size: 1100px
+	font-size: 68.75rem
+	line-height: 1111px
+	line-height: 1.01em
+	font-weight: normal
+	font-style: normal
+	color: #2d2d2d
+
+.bold
+	font-weight: bold
+
+.heavy
+	font-weight: 900
+
+.light
+	font-weight: 300
+
+.italic
+	font-style: italic
+
+.darkgrey
+	color: #2d2d2d
+
+.silver, .captiv-title
+	color: #6e6e6e
+
+.white
+	color: #ffffff
+
+.yellow
+	color: $color--pri
+
+.caps
+	text-transform: uppercase
+
+.iconFont
+	font-family: sans-serif
+	font-size: 50px
+	font-size: 3.125rem
+	line-height: 61px
+	line-height: 1.22em
+	font-weight: normal
+	font-style: normal
+	text-align: justify
+
+.centreText
+	text-align: center
+
+.leftText
+	text-align: left
+
+.rightText
+	text-align: right
+
+.label
+	text-transform: uppercase
+	color: #6e6e6e
+	text-align: center
+
+.ie8 .label
+	font-family: sans-serif
+	font-size: 16px
+	font-size: 1rem
+	line-height: 27px
+	line-height: 1.6875em
+	font-weight: bold
+	font-style: normal
+	letter-spacing: 2.4px 
+
+@media (min-width: $screen-sm-min)
+	.label
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: bold
+		font-style: normal
+		letter-spacing: 2.4px
+
+@media (max-width: $screen-xs-max)
+	.label
+		font-family: sans-serif
+		font-size: 25px
+		font-size: 1.5625rem
+		line-height: 36px
+		line-height: 1.44em
+		font-weight: bold
+		font-style: normal
+		letter-spacing: 3.4px
+
+.Button, .exitButton, .nextButton, .prevButton, .menuButton, .buyButton
+	display: inline-block
+	color: $color--pri
+	vertical-align: middle
+	text-align: center
+	-moz-transition: all 0.2s ease
+	-o-transition: all 0.2s ease
+	-webkit-transition: all 0.2s ease
+	transition: all 0.2s ease
+
+
+
+.ie8
+	.Button, .exitButton, .nextButton, .prevButton, .menuButton, .buyButton
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: normal
+		font-style: normal
+		height: 90px
+		line-height: 90px
+
+@media (min-width: $screen-sm-min)
+	.Button, .exitButton, .nextButton, .prevButton, .menuButton, .buyButton
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: normal
+		font-style: normal
+		height: 90px
+		line-height: 90px
+
+@media (max-width: $screen-xs-max)
+	.Button, .exitButton, .nextButton, .prevButton, .menuButton, .buyButton
+		font-family: sans-serif
+		font-size: 12px
+		font-size: 0.75rem
+		line-height: 23px
+		line-height: 1.91667em
+		font-weight: normal
+		font-style: normal
+		height: 50px
+		line-height: 50px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.Button, .exitButton, .nextButton, .prevButton, .menuButton, .buyButton
+		font-family: sans-serif
+		font-size: 12px
+		font-size: 0.75rem
+		line-height: 23px
+		line-height: 1.91667em
+		font-weight: normal
+		font-style: normal
+		height: 50px
+		line-height: 50px
+
+.Button:hover, .exitButton:hover, .nextButton:hover, .prevButton:hover, .menuButton:hover, .buyButton:hover
+	color: #ffffff
+
+.exitButton
+	width: 126px
+	height: 126px
+//	&:before
+//		content: '-'
+//		font-family: sans-serif
+//		font-size: 34px
+//		font-size: 2.125rem
+//		line-height: 45px
+//		line-height: 1.32353em
+//		font-weight: normal
+//		font-style: normal
+//		vertical-align: middle
+
+@media (max-height: 865px) and (min-width: 750px)
+	.exitButton
+		width: 100px
+		height: 50px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.exitButton:before
+		font-family: sans-serif
+		font-size: 24px
+		font-size: 1.5rem
+		line-height: 35px
+		line-height: 1.45833em
+		font-weight: normal
+		font-style: normal
+
+.ie8
+	.nextButton, .prevButton
+		width: 140px
+		height: 90px
+
+@media (min-width: $screen-sm-min)
+	.nextButton, .prevButton
+		width: 140px
+		height: 90px
+
+@media (max-width: $screen-xs-max)
+	.nextButton, .prevButton
+		width: 55px
+		height: 50px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.nextButton, .prevButton
+		width: 100px
+		height: 50px
+
+
+.ie8 .nextButton:after
+	font-family: sans-serif
+	font-size: 42px
+	font-size: 2.625rem
+	line-height: 53px
+	line-height: 1.2619em
+	font-weight: normal
+	font-style: normal
+	margin-right: -15px
+
+@media (min-width: $screen-sm-min)
+	.nextButton:after
+		font-family: sans-serif
+		font-size: 42px
+		font-size: 2.625rem
+		line-height: 53px
+		line-height: 1.2619em
+		font-weight: normal
+		font-style: normal
+		margin-right: -15px
+
+@media (max-width: $screen-xs-max)
+	.nextButton:after
+		font-family: sans-serif
+		font-size: 28px
+		font-size: 1.75rem
+		line-height: 39px
+		line-height: 1.39286em
+		font-weight: normal
+		font-style: normal
+
+@media (max-height: 865px) and (min-width: 750px)
+	.nextButton:after
+		font-family: sans-serif
+		font-size: 28px
+		font-size: 1.75rem
+		line-height: 39px
+		line-height: 1.39286em
+		font-weight: normal
+		font-style: normal
+
+.nextButton
+	&:hover:after
+		color: #ffffff
+	&.off:after
+		color: #333333
+
+.prevButton:before
+	vertical-align: middle
+
+.ie8 .prevButton:before
+	font-family: sans-serif
+	font-size: 42px
+	font-size: 2.625rem
+	line-height: 53px
+	line-height: 1.2619em
+	font-weight: normal
+	font-style: normal
+	margin-left: -15px
+
+@media (min-width: $screen-sm-min)
+	.prevButton:before
+		font-family: sans-serif
+		font-size: 42px
+		font-size: 2.625rem
+		line-height: 53px
+		line-height: 1.2619em
+		font-weight: normal
+		font-style: normal
+		margin-left: -15px
+
+@media (max-width: $screen-xs-max)
+	.prevButton:before
+		font-family: sans-serif
+		font-size: 28px
+		font-size: 1.75rem
+		line-height: 39px
+		line-height: 1.39286em
+		font-weight: normal
+		font-style: normal
+
+@media (max-height: 865px) and (min-width: 750px)
+	.prevButton:before
+		font-family: sans-serif
+		font-size: 28px
+		font-size: 1.75rem
+		line-height: 39px
+		line-height: 1.39286em
+		font-weight: normal
+		font-style: normal
+
+@media (max-width: $screen-xs-max)
+	.nextButton span, .prevButton span
+		display: none
+
+.off
+	color: #333333
+	cursor: default
+	&:hover
+		color: #333333
+	svg
+		fill: #333333
+
+.menuButton
+	pointer-events: auto
+
+.ie8 .menuButton
+	width: 131px
+	height: 90px
+
+@media (min-width: $screen-sm-min)
+	.menuButton
+		width: 131px
+		height: 90px
+
+@media (max-width: $screen-xs-max)
+	.menuButton
+		width: 86px
+		height: 50px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.menuButton
+		width: 86px
+		height: 50px
+
+.menuButton
+	span
+		padding-right: 10px
+	svg
+		height: 23px
+		width: 22px
+		vertical-align: middle
+	rect
+		-moz-transition: all 0.2s ease
+		-o-transition: all 0.2s ease
+		-webkit-transition: all 0.2s ease
+		transition: all 0.2s ease
+	&:hover rect
+		fill: #fff
+
+@media (max-width: $screen-xs-max)
+	.menuButton svg
+		height: 16px
+		width: 17px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.menuButton svg
+		height: 16px
+		width: 17px
+
+.buyButton
+	pointer-events: auto
+
+.ie8 .buyButton
+	width: 90px
+	height: 90px
+
+@media (min-width: $screen-sm-min)
+	.buyButton
+		width: 90px
+		height: 90px
+
+@media (max-width: $screen-xs-max)
+	.buyButton
+		width: 50px
+		height: 50px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.buyButton
+		width: 50px
+		height: 50px
+
+
+
+.ie8 .buyButton:after
+	font-family: sans-serif
+	font-size: 50px
+	font-size: 3.125rem
+	line-height: 61px
+	line-height: 1.22em
+	font-weight: normal
+	font-style: normal
+
+@media (min-width: $screen-sm-min)
+	.buyButton:after
+		font-family: sans-serif
+		font-size: 50px
+		font-size: 3.125rem
+		line-height: 61px
+		line-height: 1.22em
+		font-weight: normal
+		font-style: normal
+
+@media (max-width: $screen-xs-max)
+	.buyButton:after
+		font-family: sans-serif
+		font-size: 25px
+		font-size: 1.5625rem
+		line-height: 36px
+		line-height: 1.44em
+		font-weight: normal
+		font-style: normal
+
+@media (max-height: 865px) and (min-width: 750px)
+	.buyButton:after
+		font-family: sans-serif
+		font-size: 25px
+		font-size: 1.5625rem
+		line-height: 36px
+		line-height: 1.44em
+		font-weight: normal
+		font-style: normal
+
+.buyButton:hover:after
+	color: #ffffff
+
+.squareButton, .bigsquareButton, .eyeButton
+	text-transform: uppercase
+	padding: 0 20px 0 12px
+	color: #6e6e6e
+	display: table
+	-moz-transition: all 0.2s ease
+	-o-transition: all 0.2s ease
+	-webkit-transition: all 0.2s ease
+	transition: all 0.2s ease
+
+.ie8
+	.squareButton, .bigsquareButton, .eyeButton
+		border: 1px solid #6e6e6e
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: bold
+		font-style: normal
+		height: 60px
+		line-height: 22px
+		letter-spacing: 2.4px
+		z-index: 2
+
+@media (min-width: $screen-sm-min)
+	.squareButton, .bigsquareButton, .eyeButton
+		border: 1px solid #6e6e6e
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: bold
+		font-style: normal
+		height: 60px
+		line-height: 22px
+		letter-spacing: 2.4px
+		z-index: 2
+
+@media (max-width: $screen-xs-max)
+	.squareButton, .bigsquareButton, .eyeButton
+		border: 2px solid #6e6e6e
+		font-family: sans-serif
+		font-size: 25px
+		font-size: 1.5625rem
+		line-height: 36px
+		line-height: 1.44em
+		font-weight: bold
+		font-style: normal
+		height: 90px
+		line-height: 25px
+		letter-spacing: 3.4px
+
+.squareButton span, .bigsquareButton span, .eyeButton span
+	display: table-cell
+	vertical-align: middle
+
+.squareButton:hover, .bigsquareButton:hover, .eyeButton:hover
+	color: #ffffff
+
+.ie8
+	.squareButton:hover, .bigsquareButton:hover, .eyeButton:hover
+		border: 1px solid #ffffff
+
+@media (min-width: $screen-sm-min)
+	.squareButton:hover, .bigsquareButton:hover, .eyeButton:hover
+		border: 1px solid #ffffff
+
+@media (max-width: $screen-xs-max)
+	.squareButton:hover, .bigsquareButton:hover, .eyeButton:hover
+		border: 2px solid #ffffff
+
+.squareButton.active, .active.bigsquareButton, .detailing + .exampleOptions .bigsquareButton#detailing, .angle + .exampleOptions .bigsquareButton#angle, .distance + .exampleOptions .bigsquareButton#distance, .active.eyeButton, .detailing + .exampleOptions .eyeButton#detailing, .angle + .exampleOptions .eyeButton#angle, .distance + .exampleOptions .eyeButton#distance, .detailing + .exampleOptions .squareButton#detailing, .angle + .exampleOptions .squareButton#angle, .distance + .exampleOptions .squareButton#distance
+	color: #ffffff
+
+.ie8
+	.squareButton.active, .active.bigsquareButton, .detailing + .exampleOptions .bigsquareButton#detailing
+		border: 1px solid $color--pri
+
+.detailing + .exampleOptions .ie8 .bigsquareButton#detailing, .ie8 .angle + .exampleOptions .bigsquareButton#angle, .angle + .exampleOptions .ie8 .bigsquareButton#angle, .ie8 .distance + .exampleOptions .bigsquareButton#distance, .distance + .exampleOptions .ie8 .bigsquareButton#distance
+	border: 1px solid $color--pri
+
+.ie8
+	.active.eyeButton, .detailing + .exampleOptions .eyeButton#detailing
+		border: 1px solid $color--pri
+
+.detailing + .exampleOptions .ie8 .eyeButton#detailing, .ie8 .angle + .exampleOptions .eyeButton#angle, .angle + .exampleOptions .ie8 .eyeButton#angle, .ie8 .distance + .exampleOptions .eyeButton#distance, .distance + .exampleOptions .ie8 .eyeButton#distance, .ie8 .detailing + .exampleOptions .squareButton#detailing, .detailing + .exampleOptions .ie8 .squareButton#detailing, .ie8 .angle + .exampleOptions .squareButton#angle, .angle + .exampleOptions .ie8 .squareButton#angle, .ie8 .distance + .exampleOptions .squareButton#distance, .distance + .exampleOptions .ie8 .squareButton#distance
+	border: 1px solid $color--pri
+
+@media (min-width: $screen-sm-min)
+	.squareButton.active, .active.bigsquareButton, .detailing + .exampleOptions .bigsquareButton#detailing, .angle + .exampleOptions .bigsquareButton#angle, .distance + .exampleOptions .bigsquareButton#distance, .active.eyeButton, .detailing + .exampleOptions .eyeButton#detailing, .angle + .exampleOptions .eyeButton#angle, .distance + .exampleOptions .eyeButton#distance, .detailing + .exampleOptions .squareButton#detailing, .angle + .exampleOptions .squareButton#angle, .distance + .exampleOptions .squareButton#distance
+		border: 1px solid $color--pri
+
+@media (max-width: $screen-xs-max)
+	.squareButton.active, .active.bigsquareButton, .detailing + .exampleOptions .bigsquareButton#detailing, .angle + .exampleOptions .bigsquareButton#angle, .distance + .exampleOptions .bigsquareButton#distance, .active.eyeButton, .detailing + .exampleOptions .eyeButton#detailing, .angle + .exampleOptions .eyeButton#angle, .distance + .exampleOptions .eyeButton#distance, .detailing + .exampleOptions .squareButton#detailing, .angle + .exampleOptions .squareButton#angle, .distance + .exampleOptions .squareButton#distance
+		border: 2px solid $color--pri
+
+.ie8 .bigsquareButton
+	height: 70px
+	padding: 0 30px
+
+@media (min-width: $screen-sm-min)
+	.bigsquareButton
+		height: 70px
+		padding: 0 30px
+
+@media (max-width: $screen-xs-max)
+	.bigsquareButton
+		font-family: sans-serif
+		font-size: 22px
+		font-size: 1.375rem
+		line-height: 33px
+		line-height: 1.5em
+		font-weight: bold
+		font-style: normal
+		height: 100px
+		padding: 0 10px
+
+.ie8 .eyeButton:before
+	line-height: 60px
+
+@media (min-width: $screen-sm-min)
+	.eyeButton:before
+		line-height: 60px
+
+@media (max-width: $screen-xs-max)
+	.eyeButton:before
+		line-height: 90px
+
+.greyBox
+	border: 1px solid #6e6e6e
+	display: block
+	padding: 20px
+	margin-bottom: 40px
+
+.InfoLink
+	display: inline-block
+	vertical-align: middle
+	color: #6e6e6e
+	text-align: center
+	img
+		vertical-align: middle
+		opacity: 0.345
+		-moz-transition: all 0.2s ease
+		-o-transition: all 0.2s ease
+		-webkit-transition: all 0.2s ease
+		transition: all 0.2s ease
+		text-align: center
+		display: block
+		margin: 0 auto
+		margin-bottom: 20px
+	&:hover img
+		opacity: 1
+	&:before
+		font-family: sans-serif
+		font-size: 60px
+		font-size: 3.75rem
+		line-height: 71px
+		line-height: 1.18333em
+		font-weight: normal
+		font-style: normal
+		text-align: center
+		display: block
+		-moz-transition: all 0.2s ease
+		-o-transition: all 0.2s ease
+		-webkit-transition: all 0.2s ease
+		transition: all 0.2s ease
+	&:hover:before
+		color: #ffffff
+
+.infoButton:before
+	content: 'i'
+
+.tryButton:before
+	content: 'å'
+
+.startButton:before
+	content: '-'
+
+#Menu
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	position: absolute
+	margin: auto
+	background: rgba(41, 41, 41, 0.9)
+	z-index: 3
+	display: none
+
+.impress-not-supported #Menu
+	position: fixed
+
+.Menu-box
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	position: absolute
+	margin: auto
+
+.ie8 .Menu-box
+	width: 350px
+	height: 708px
+
+@media (min-width: $screen-sm-min)
+	.Menu-box
+		width: 350px
+		height: 611px
+
+@media (max-width: $screen-xs-max)
+	.Menu-box
+		width: 250px
+		height: 360px
+
+.Menu-list
+	border: 1px solid #6e6e6e
+	background: #212121
+	top: 0
+	left: 0
+	right: 0
+	bottom: auto
+	position: absolute
+	margin: auto
+	cursor: pointer
+
+.ie8 .Menu-list
+	width: 350px
+	height: 564px
+
+@media (min-width: $screen-sm-min)
+	.Menu-list
+		width: 350px
+		height: 554px
+
+@media (max-width: $screen-xs-max)
+	.Menu-list
+		width: 250px
+		height: 329px
+
+.Menu-item
+	width: 100%
+	text-align: center
+	border-top: 1px solid #6e6e6e
+	&:first-child
+		border-top: none
+
+.Menu-link
+	text-transform: uppercase
+	color: #6e6e6e
+	width: 100%
+	height: 100%
+	display: block
+	letter-spacing: 3.4px
+
+.ie8 .Menu-link
+	font-family: sans-serif
+	font-size: 20px
+	font-size: 1.25rem
+	line-height: 31px
+	line-height: 1.55em
+	font-weight: normal
+	font-style: normal
+	height: 80px
+	line-height: 80px
+
+@media (min-width: $screen-sm-min)
+	.Menu-link
+		font-family: sans-serif
+		font-size: 20px
+		font-size: 1.25rem
+		line-height: 31px
+		line-height: 1.55em
+		font-weight: normal
+		font-style: normal
+		height: 68px
+		line-height: 68px
+
+@media (max-width: $screen-xs-max)
+	.Menu-link
+		font-family: sans-serif
+		font-size: 13px
+		font-size: 0.8125rem
+		line-height: 24px
+		line-height: 1.84615em
+		font-weight: normal
+		font-style: normal
+		height: 40px
+		line-height: 40px
+
+.Menu-link
+	&:hover, &.active
+		color: $color--pri
+
+.detailing + .exampleOptions .Menu-link#detailing, .angle + .exampleOptions .Menu-link#angle, .distance + .exampleOptions .Menu-link#distance
+	color: $color--pri
+
+.Menu-list:after
+	content: ''
+	width: 50px
+	height: 50px
+	display: inline-block
+	background-color: #232323
+	border: 1px solid #6e6e6e
+	background: #212121 url(/img/close-icon.svg) no-repeat center (center / 26px) 26px
+	position: absolute
+	left: 0
+	right: 0
+	bottom: -52px
+	margin: auto
+
+@media (max-width: $screen-xs-max)
+	.Menu-list:after
+		width: 30px
+		height: 30px
+		background-size: 14px 14px
+
+.ie8 .Share-box
+	width: 210px
+	padding: 0 25px
+
+@media (min-width: $screen-sm-min)
+	.Share-box
+		width: 210px
+		padding: 0 25px
+
+@media (max-width: $screen-xs-max)
+	.Share-box
+		display: none
+
+@media (max-height: 865px) and (min-width: 750px)
+	.Share-box
+		width: 145px
+		padding: 0 10px
+
+.Share-text
+	font-family: sans-serif
+	font-size: 16px
+	font-size: 1rem
+	line-height: 27px
+	line-height: 1.6875em
+	font-weight: normal
+	font-style: normal
+	color: #6e6e6e
+
+@media (max-height: 865px) and (min-width: 750px)
+	.Share-text
+		font-family: sans-serif
+		font-size: 14px
+		font-size: 0.875rem
+		line-height: 25px
+		line-height: 1.78571em
+		font-weight: normal
+		font-style: normal
+
+.Share-link
+	display: inline-block
+	vertical-align: middle
+
+.ie8 .Share-link
+	width: 30px
+	height: 30px
+	margin-left: 8px
+
+@media (min-width: $screen-sm-min)
+	.Share-link
+		width: 30px
+		height: 30px
+		margin-left: 8px
+
+@media (max-width: $screen-xs-max)
+	.Share-link
+		width: 20px
+		height: 20px
+		margin: 0 4px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.Share-link
+		width: 20px
+		height: 20px
+		margin: 0 4px
+
+.Share-link img
+	vertical-align: top
+	opacity: 0.2
+	-moz-transition: all 0.2s ease
+	-o-transition: all 0.2s ease
+	-webkit-transition: all 0.2s ease
+	transition: all 0.2s ease
+
+.ie8 .Share-link img
+	width: 30px
+	height: 30px
+
+@media (min-width: $screen-sm-min)
+	.Share-link img
+		width: 30px
+		height: 30px
+
+@media (max-width: $screen-xs-max)
+	.Share-link img
+		width: 20px
+		height: 20px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.Share-link img
+		width: 20px
+		height: 20px
+
+.Share-link:hover img
+	opacity: 1
+
+.Progress
+	position: absolute
+	width: 100%
+	vertical-align: middle
+
+.ie8 .Progress
+	padding: 0 438px 0 30px
+
+@media (min-width: $screen-sm-min)
+	.Progress
+		padding: 0 438px 0 30px
+
+@media (max-width: $screen-xs-max)
+	.Progress
+		padding: 0 130px 0 15px
+		border-left: none
+
+@media (max-height: 865px) and (min-width: 750px)
+	.Progress
+		padding: 0 438px 0 15px
+
+.Progress-text
+	font-family: sans-serif
+	font-size: 16px
+	font-size: 1rem
+	line-height: 27px
+	line-height: 1.6875em
+	font-weight: normal
+	font-style: normal
+	color: #ffffff
+
+@media (max-height: 865px) and (min-width: 750px)
+	.Progress-text
+		font-family: sans-serif
+		font-size: 14px
+		font-size: 0.875rem
+		line-height: 25px
+		line-height: 1.78571em
+		font-weight: normal
+		font-style: normal
+
+.Progress-bar
+	height: 1px
+	width: 100%
+	display: inline-block
+	position: absolute
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	margin: auto
+
+.ie8 .Progress-bar
+	padding: 0 450px 0 100px
+
+@media (min-width: $screen-sm-min)
+	.Progress-bar
+		padding: 0 450px 0 100px
+
+@media (max-width: $screen-xs-max)
+	.Progress-bar
+		padding: 0 130px 0 80px
+
+@media (max-height: 865px) and (min-width: 750px)
+	.Progress-bar
+		padding: 0 340px 0 80px
+
+.Progress-line
+	height: 1px
+	width: 100%
+	display: inline-block
+	background: #333333
+	vertical-align: top
+
+.Progress-step
+	height: 1px
+	width: 4.76190476190476%
+	display: inline-block
+	vertical-align: top
+	background: $color--pri
+
+.impress-container
+	z-index: 1
+	position: fixed
+	height: 100%
+	width: 100%
+	overflow: hidden
+
+.impress-not-supported .impress-container
+	position: relative
+
+.step
+	width: 768px
+	height: 748px
+	padding: 30px
+	margin: auto
+	opacity: 0.2
+	-moz-transition: opacity 1s
+	-o-transition: opacity 1s
+	-webkit-transition: opacity 1s
+	transition: opacity 1s
+	z-index: 1
+	&.active
+		opacity: 1
+		z-index: 2
+
+
+@media (max-width: $screen-ipx)
+	.step
+		height 				: 170vh
+	#summary.step
+		height 				: 100vh
+
+#cover
+	height: 748px !important
+
+
+
+.detailing + .exampleOptions .step#detailing, .angle + .exampleOptions .step#angle, .distance + .exampleOptions .step#distance
+	opacity: 1
+	z-index: 2
+
+.impress-not-supported .step
+	opacity: 1
+	margin-left: 0
+	padding: 90px 25px 25px 25px
+	height: 954px
+	position: relative
+
+.no-step
+	z-index: 0
+	opacity: 1
+	pointer-events: none
+	color: #2d2d2d
+
+.impress-not-supported .no-step
+	display: none
+
+.slide
+	height: 100%
+	width: 100%
+	z-index: 1
+
+.nextIcon
+	color 										: $color--pri
+	font-family 								: sans-serif
+	font-size 									: 60px
+	font-size 									: 3.75rem
+	line-height 								: 71px
+	line-height 								: 1.18333em
+	font-weight 								: normal
+	font-style 									: normal
+	position 									: absolute
+	margin 										: auto
+	left 										: 39px
+	bottom 										: 13px
+	cursor 										: pointer
+	z-index 									: 2
+	svg
+		fill 									: $color--pri
+		width 									: 1.5em
+		height 									: 1.5em
+
+.nextIcon--right
+	svg
+		position 								: absolute
+		bottom 									: 100px
+		right 									: -20px
+
+	
+
+.nextIcon--right
+	color 										: $color--pri
+	font-family 								: sans-serif
+	font-size 									: 60px
+	font-size 									: 3.75rem
+	line-height 								: 71px
+	line-height 								: 1.18333em
+	font-weight 								: normal
+	font-style 									: normal
+	position 									: absolute
+	bottom 										: 130px
+	right 										: 63px
+	margin 										: auto
+	cursor 										: pointer
+	z-index 									: 2
+	
+
+.impress-not-supported
+	.nextIcon, .nextIcon--right
+		display: none
+	.downIcon
+		color: $color--pri
+		font-family: sans-serif
+		font-size: 60px
+		font-size: 3.75rem
+		line-height: 71px
+		line-height: 1.18333em
+		font-weight: normal
+		font-style: normal
+		position: absolute
+		margin: 25px auto auto auto
+		left: -15px
+		cursor: pointer
+		z-index: 2
+
+.firstIcon
+	-webkit-animation: sliding 4s 1s ease-out infinite
+	-moz-animation: sliding 4s 1s ease-out infinite
+	-o-animation: sliding 4s 1s ease-out infinite
+	animation: sliding 4s 1s ease-out infinite
+
+@-webkit-keyframes sliding
+	0%
+		-webkit-transform: translate3d(0, 0, 0)
+		opacity: 0
+
+	40%
+		-webkit-transform: translate3d(50px, 0, 0)
+		opacity: 1
+
+	58%
+		-webkit-transform: translate3d(50px, 0, 0)
+		opacity: 1
+
+	60%
+		-webkit-transform: translate3d(55px, 0, 0)
+		opacity: 0
+
+	100%
+		-webkit-transform: translate3d(0, 0, 0)
+		opacity: 0
+
+
+@-moz-keyframes sliding
+	0%
+		-moz-transform: translate3d(0, 0, 0)
+		opacity: 0
+
+	40%
+		-moz-transform: translate3d(50px, 0, 0)
+		opacity: 1
+
+	58%
+		-moz-transform: translate3d(50px, 0, 0)
+		opacity: 1
+
+	60%
+		-moz-transform: translate3d(55px, 0, 0)
+		opacity: 0
+
+	100%
+		-moz-transform: translate3d(0, 0, 0)
+		opacity: 0
+
+
+@-o-keyframes sliding
+	0%
+		-o-transform: translate3d(0, 0, 0)
+		opacity: 0
+
+	40%
+		-o-transform: translate3d(50px, 0, 0)
+		opacity: 1
+
+	58%
+		-o-transform: translate3d(50px, 0, 0)
+		opacity: 1
+
+	60%
+		-o-transform: translate3d(55px, 0, 0)
+		opacity: 0
+
+	100%
+		-o-transform: translate3d(0, 0, 0)
+		opacity: 0
+
+
+@keyframes sliding
+	0%
+		transform: translate3d(0, 0, 0)
+		opacity: 0
+
+	40%
+		transform: translate3d(50px, 0, 0)
+		opacity: 1
+
+	58%
+		transform: translate3d(50px, 0, 0)
+		opacity: 1
+
+	60%
+		transform: translate3d(55px, 0, 0)
+		opacity: 0
+
+	100%
+		transform: translate3d(0, 0, 0)
+		opacity: 0
+
+
+.exampleInfoBox
+	width: 50px
+	height: 50px
+	background: $color--pri
+	left: 32px
+	bottom: 32px
+	position: absolute
+	margin: auto
+	z-index: 2
+	span
+		font-family: sans-serif
+		font-size: 50px
+		font-size: 3.125rem
+		line-height: 61px
+		line-height: 1.22em
+		font-weight: normal
+		font-style: normal
+		color: #232323
+		position: absolute
+		left: -8px
+		top: -3px
+		margin: auto
+
+#detail-signage span
+	font-family: sans-serif
+	font-size: 715px
+	font-size: 44.6875rem
+	line-height: 726px
+	line-height: 1.01538em
+	font-weight: bold
+	font-style: normal
+	color: #ffffff
+	position: absolute
+	margin: auto
+	left: -1075px
+	width: 4500px
+	top: -23px
+	&:after
+		content: '$'
+		color: $color--pri
+		font-family: sans-serif
+		font-size: 650px
+		font-size: 40.625rem
+		line-height: 661px
+		line-height: 1.01692em
+		font-weight: normal
+		font-style: normal
+		position: absolute
+		top: 80px
+		right: 0
+		text-align: right
+
+#detail-display
+	span
+		font-family: sans-serif
+		font-size: 290px
+		font-size: 18.125rem
+		line-height: 301px
+		line-height: 1.03793em
+		font-weight: normal
+		font-style: normal
+		color: #6e6e6e
+		position: absolute
+		margin: auto
+		top: 180px
+		&:before
+			content: '6:20'
+			color: #ffffff
+			font-family: sans-serif
+			font-size: 610px
+			font-size: 38.125rem
+			line-height: 621px
+			line-height: 1.01803em
+			font-weight: normal
+			font-style: normal
+			position: absolute
+			top: -600px
+	.nextIcon, .nextIcon--right
+		font-family: sans-serif
+		font-size: 180px
+		font-size: 11.25rem
+		line-height: 191px
+		line-height: 1.06111em
+		font-weight: normal
+		font-style: normal
+		bottom: 30px
+		left: -10px
+	.nextIcon:after, .nextIcon--right:after
+		content: 'Platforma 6'
+		color: #ffffff
+		font-family: sans-serif
+		font-size: 90px
+		font-size: 5.625rem
+		line-height: 101px
+		line-height: 1.12222em
+		font-weight: normal
+		font-style: normal
+		position: absolute
+		top: 51px
+		margin: auto
+		width: 500px
+
+#function-form:before
+	content: 'i'
+	color: #2d2d2d
+	font-family: sans-serif
+	font-size: 1130px
+	font-size: 70.625rem
+	line-height: 1141px
+	line-height: 1.00973em
+	font-weight: normal
+	font-style: normal
+	position: absolute
+	right: -668px
+	bottom: -258px
+
+#tate-britain
+	.nextIcon, .nextIcon--right
+		font-family: sans-serif
+		font-size: 83px
+		font-size: 5.1875rem
+		line-height: 94px
+		line-height: 1.13253em
+		font-weight: normal
+		font-style: normal
+		left: 0
+		right: 0
+		bottom: 15px
+
+#typeface-details
+	.nextIcon, .nextIcon--right
+		font-family: sans-serif
+		font-size: 75px
+		font-size: 4.6875rem
+		line-height: 86px
+		line-height: 1.14667em
+		font-weight: normal
+		font-style: normal
+		left: auto
+		right: 0
+		bottom: 15px
+
+#design:before
+	content: '5'
+	color: #2d2d2d
+	font-family: sans-serif
+	font-size: 935px
+	font-size: 58.4375rem
+	line-height: 946px
+	line-height: 1.01176em
+	font-weight: normal
+	font-style: normal
+	right: -35px
+	bottom: -153px
+	position: absolute
+	margin: auto
+
+#weights
+	.nextIcon, .nextIcon--right
+		left: auto
+		right: 15px
+		bottom: 18px
+
+#icons
+	.nextIcon, .nextIcon--right
+		bottom: 13px
+		right: 12px
+		left: auto
+
+#function, #form
+	width: 800px
+	height: 500px
+	background-color: transparent
+	padding: 0 0 0 10px
+	display: block
+
+.impress-not-supported
+	#function, #form
+		display: none
+
+#function:before, #form:before
+	content: ''
+	border: 15px solid #333333
+	width: 1875px
+	height: 600px
+	position: absolute
+	top: 0
+	left: 0
+	display: block
+	pointer-events: none
+
+.magnifier
+	color: $color--pri
+	font-family: sans-serif
+	font-size: 60px
+	font-size: 3.75rem
+	line-height: 71px
+	line-height: 1.18333em
+	font-weight: normal
+	font-style: normal
+	position: absolute
+	top: 168px
+	left: 32px
+	z-index: 2
+	-webkit-animation: pulse 1s alternate ease-out infinite
+	-moz-animation: pulse 1s alternate ease-out infinite
+	-o-animation: pulse 1s alternate ease-out infinite
+	animation: pulse 1s alternate ease-out infinite
+
+@-webkit-keyframes pulse
+	from
+		opacity: 0.2
+
+	to
+		opacity: 1
+
+
+@-moz-keyframes pulse
+	from
+		opacity: 0.2
+
+	to
+		opacity: 1
+
+
+@-o-keyframes pulse
+	from
+		opacity: 0.2
+
+	to
+		opacity: 1
+
+
+@keyframes pulse
+	from
+		opacity: 0.2
+
+	to
+		opacity: 1
+
+
+.bigWhiteTitle
+	color: #ffffff
+	font-family: sans-serif
+	font-size: 150px
+	font-size: 9.375rem
+	line-height: 161px
+	line-height: 1.07333em
+	font-weight: bold
+	font-style: normal
+	position: absolute
+	left: 34px
+	top: 26px
+
+#links
+	padding: 40px
+
+.silverLine
+	background: #6e6e6e
+	height: 1px
+	width: 165px
+	display: inline-block
+	width: 100%
+	margin: 0 0 20px
+
+.yellowLine, .bigYellowLine, .biggerYellowLine
+	background: $color--pri
+	height: 1px
+	width: 165px
+	display: inline-block
+
+.bigYellowLine
+	width: 270px
+
+.biggerYellowLine
+	width: 415px
+
+.lineUp
+	height: 2px
+	width: 2190px
+	display: block
+	background: $color--pri
+	position: absolute
+	left: -1870px
+	top: 855px
+	margin: auto
+	-moz-transform: rotate(-46deg)
+	-ms-transform: rotate(-46deg)
+	-webkit-transform: rotate(-46deg)
+	transform: rotate(-46deg)
+	outline: 1px solid transparent
+	&:before
+		content: ''
+		width: 9px
+		height: 9px
+		-moz-border-radius: 75%
+		-webkit-border-radius: 75%
+		border-radius: 75%
+		display: block
+		background: $color--pri
+		position: absolute
+		margin: auto
+		right: -9px
+		top: -3px
+	&:after
+		content: ''
+		width: 9px
+		height: 9px
+		-moz-border-radius: 75%
+		-webkit-border-radius: 75%
+		border-radius: 75%
+		display: block
+		background: $color--pri
+		position: absolute
+		margin: auto
+		left: -9px
+		top: -3px
+
+.lineDown
+	width: 2px
+	height: 5595px
+	display: block
+	background: $color--pri
+	position: absolute
+	left: -30px
+	top: 80px
+	margin: auto
+	&:before
+		content: ''
+		width: 9px
+		height: 9px
+		-moz-border-radius: 75%
+		-webkit-border-radius: 75%
+		border-radius: 75%
+		display: block
+		background: $color--pri
+		position: absolute
+		margin: auto
+		top: 0
+		left: -3px
+	&:after
+		content: ''
+		width: 9px
+		height: 9px
+		-moz-border-radius: 75%
+		-webkit-border-radius: 75%
+		border-radius: 75%
+		display: block
+		background: $color--pri
+		position: absolute
+		margin: auto
+		bottom: 0
+		left: -3px
+
+//.arrowSlide:after
+//	content: 'à'
+//	color: #6e6e6e
+//	font-family: sans-serif
+//	font-size: 900px
+//	font-size: 56.25rem
+//	line-height: 911px
+//	line-height: 1.01222em
+//	font-weight: normal
+//	font-style: normal
+//	opacity: 0.2
+
+.fontExample
+	border: 1px solid #6e6e6e
+	height: 100%
+	width: 580px
+
+.fontExample-box
+	position: absolute
+	left: 0
+	right: 0
+	bottom: 0
+	margin: auto
+
+.ie8 .fontExample-box
+	top: 60px
+
+@media (min-width: $screen-sm-min)
+	.fontExample-box
+		top: 60px
+
+@media (max-width: $screen-xs-max)
+	.fontExample-box
+		top: 80px
+
+.fontExample-tab
+	position: absolute
+	display: inline-block
+
+.ie8 .fontExample-tab
+	height: 60px
+	line-height: 60px
+	top: -60px !important
+
+@media (min-width: $screen-sm-min)
+	.fontExample-tab
+		height: 60px
+		line-height: 60px
+		top: -60px !important
+
+@media (max-width: $screen-xs-max)
+	.fontExample-tab
+		height: 80px
+		line-height: 80px
+		top: -80px !important
+
+.fontExample-name
+	width: 100%
+	text-transform: uppercase
+	-moz-transition: all 0.2s ease
+	-o-transition: all 0.2s ease
+	-webkit-transition: all 0.2s ease
+	transition: all 0.2s ease
+	color: #ffffff
+	text-align: center
+	cursor: pointer
+	display: block
+	z-index: 2
+
+.ie8 .fontExample-name
+	font-family: sans-serif
+	font-size: 16px
+	font-size: 1rem
+	line-height: 27px
+	line-height: 1.6875em
+	font-weight: bold
+	font-style: normal
+	height: 60px
+	line-height: 60px
+	letter-spacing: 2.4px
+
+@media (min-width: $screen-sm-min)
+	.fontExample-name
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: bold
+		font-style: normal
+		height: 60px
+		line-height: 60px
+		letter-spacing: 2.4px
+
+@media (max-width: $screen-xs-max)
+	.fontExample-name
+		font-family: sans-serif
+		font-size: 25px
+		font-size: 1.5625rem
+		line-height: 36px
+		line-height: 1.44em
+		font-weight: bold
+		font-style: normal
+		height: 80px
+		line-height: 80px
+		letter-spacing: 3.4px
+
+.fontExample-list
+	position: absolute
+	left: 0
+	top: 0
+	right: 0
+	bottom: 0
+	margin: auto
+	padding: 25px
+	-moz-transition: all 0.2s ease
+	-o-transition: all 0.2s ease
+	-webkit-transition: all 0.2s ease
+	transition: all 0.2s ease
+	opacity: 0
+	z-index: 1
+	span
+		&:first-child
+			margin-top: 0
+		margin: 15px 0
+	&.is-active
+		opacity: 1
+
+.lightBg
+	background: #ffffff
+	color: #282828
+
+.darkBg
+	background: #232323
+	color: #ffffff
+
+.tableExample
+	text-align: right
+	width: 100%
+	margin-top: 10px
+	tr
+		border-bottom: 1px solid #6e6e6e
+		border-left: 1px solid #6e6e6e
+		border-right: 1px solid #6e6e6e
+		font-family: sans-serif
+		font-size: 22px
+		font-size: 1.25rem
+		line-height: 36px
+		line-height: 1.44em
+		font-weight: bold
+		font-style: normal
+		height: 38px
+		line-height: 38px
+		display: block
+		&:first-child
+			border-top: 1px solid #6e6e6e
+		&.tablePositive
+			font-family: sans-serif
+			font-size: 25px
+			font-size: 1.5625rem
+			line-height: 36px
+			line-height: 1.44em
+			font-weight: bold
+			font-style: normal
+			height: 60px
+			line-height: 60px
+	td
+		padding: 0 10px
+		//width: 24%
+		display: inline-block
+		&:first-child
+			text-align: left
+
+.Overlay
+	z-index: 3
+	color: #212121
+	background: #ffffff
+	position: absolute
+	width: 100%
+	display: none
+
+.Overlay-wrap
+	max-width: 840px
+	margin: auto
+
+.ie8
+	.Overlay-wrap
+		padding: 0 60px 100px 60px
+	.Overlay-title, label
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: bold
+		font-style: normal
+	.Overlay-title, label
+		padding: 50px 0 25px
+
+@media (min-width: $screen-sm-min)
+	.Overlay-wrap
+		padding: 0 60px 100px 60px
+
+@media (max-width: $screen-xs-max)
+	.Overlay-wrap
+		padding: 0 40px 50px 20px
+
+@media (min-width: $screen-sm-min)
+	.Overlay-title, label
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: bold
+		font-style: normal
+
+@media (max-width: $screen-xs-max)
+	.Overlay-title, label
+		font-family: sans-serif
+		font-size: 14px
+		font-size: 0.875rem
+		line-height: 25px
+		line-height: 1.78571em
+		font-weight: bold
+		font-style: normal
+
+@media (min-width: $screen-sm-min)
+	.Overlay-title, label
+		padding: 50px 0 25px
+
+@media (max-width: $screen-xs-max)
+	.Overlay-title, label
+		padding: 35px 15px 15px
+
+.Overlay-text
+	color: #333333
+
+.ie8 .Overlay-text
+	font-family: sans-serif
+	font-size: 20px
+	font-size: 1.25rem
+	font-weight: 300
+	font-style: normal
+	line-height: 30px
+	margin-bottom: 25px
+
+@media (min-width: $screen-sm-min)
+	.Overlay-text
+		font-family: sans-serif
+		font-size: 20px
+		font-size: 1.25rem
+		font-weight: 300
+		font-style: normal
+		line-height: 30px
+		margin-bottom: 25px
+
+@media (max-width: $screen-xs-max)
+	.Overlay-text
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		font-weight: 300
+		font-style: normal
+		line-height: 22px
+		margin-bottom: 25px
+
+@media (max-width: $screen-xs-max)
+	.Overlay-text
+		padding: 0 15px
+
+.Overlay-bigChar
+	font-family: sans-serif
+	font-size: 55px
+	font-size: 3.4375rem
+	font-weight: normal
+	font-style: normal
+	line-height: 62px
+	display: block
+
+@media (max-width: $screen-xs-max)
+	.Overlay-bigChar
+		line-height: 58px
+		padding: 0 15px
+
+.Overlay-negativebigChar
+	font-family: sans-serif
+	font-size: 55px
+	font-size: 3.4375rem
+	font-weight: normal
+	font-style: normal
+	line-height: 62px
+	display: block
+
+@media (max-width: $screen-xs-max)
+	.Overlay-negativebigChar
+		line-height: 58px
+		padding: 0 15px
+
+.Overlay-smallChar
+	letter-spacing: 1px
+	word-break: break-all
+	display: block
+
+.ie8 .Overlay-smallChar
+	font-family: sans-serif
+	font-size: 35px
+	font-size: 2.1875rem
+	font-weight: normal
+	font-style: normal
+	line-height: 50px
+
+@media (min-width: $screen-sm-min)
+	.Overlay-smallChar
+		font-family: sans-serif
+		font-size: 35px
+		font-size: 2.1875rem
+		font-weight: normal
+		font-style: normal
+		line-height: 50px
+
+@media (max-width: $screen-xs-max)
+	.Overlay-smallChar
+		font-family: sans-serif
+		font-size: 22px
+		font-size: 1.375rem
+		font-weight: normal
+		font-style: normal
+		line-height: 26px
+		padding: 0 15px
+
+.Overlay-negativesmallChar
+	letter-spacing: 1px
+	word-break: break-all
+	display: block
+
+.ie8 .Overlay-negativesmallChar
+	font-family: sans-serif
+	font-size: 35px
+	font-size: 2.1875rem
+	font-weight: normal
+	font-style: normal
+	line-height: 50px
+
+@media (min-width: $screen-sm-min)
+	.Overlay-negativesmallChar
+		font-family: sans-serif
+		font-size: 35px
+		font-size: 2.1875rem
+		font-weight: normal
+		font-style: normal
+		line-height: 50px
+
+@media (max-width: $screen-xs-max)
+	.Overlay-negativesmallChar
+		font-family: sans-serif
+		font-size: 22px
+		font-size: 1.375rem
+		font-weight: normal
+		font-style: normal
+		line-height: 26px
+		padding: 0 15px
+
+.Overlay-line
+	height: 1px
+	border-bottom: 1px solid #6e6e6e
+	padding-top: 40px
+
+.Overlay-lightline
+	height: 1px
+	border-bottom: 1px solid #6e6e6e
+	padding-top: 40px
+	border-bottom: 1px solid #6e6e6e
+
+@media (max-width: $screen-xs-max)
+	.Overlay-line, .Overlay-lightline
+		margin: 0 15px
+
+.closeButton
+	color: #6e6e6e
+	position: fixed
+	cursor: pointer
+	z-index: 2
+	-moz-transition: all 0.2s ease
+	-o-transition: all 0.2s ease
+	-webkit-transition: all 0.2s ease
+	transition: all 0.2s ease
+
+.ie8 .closeButton
+	font-family: sans-serif
+	font-size: 35px
+	font-size: 2.1875rem
+	line-height: 46px
+	line-height: 1.31429em
+	font-weight: normal
+	font-style: normal
+	right: 15px
+	top: 15px
+
+@media (min-width: $screen-sm-min)
+	.closeButton
+		font-family: sans-serif
+		font-size: 35px
+		font-size: 2.1875rem
+		line-height: 46px
+		line-height: 1.31429em
+		font-weight: normal
+		font-style: normal
+		right: 15px
+		top: 15px
+
+@media (max-width: $screen-xs-max)
+	.closeButton
+		font-family: sans-serif
+		font-size: 25px
+		font-size: 1.5625rem
+		line-height: 36px
+		line-height: 1.44em
+		font-weight: normal
+		font-style: normal
+		right: 10px
+		top: 10px
+
+.closeButton:hover
+	opacity: 0.5
+
+#exampleArea
+	width: 698px
+	display: block
+	padding-top: 80px
+
+.ie8 #exampleArea
+	height: 510px
+
+@media (min-width: $screen-sm-min)
+	#exampleArea
+		height: 510px
+
+@media (max-width: $screen-xs-max)
+	#exampleArea
+		height: 460px
+
+#exampleTextArea
+	-webkit-perspective: 500px
+	perspective: 500px
+	-webkit-perspective-origin: center center
+	perspective-origin: center center
+	-webkit-transform: translate3d(0px, 0px, 0px)
+	transform: translate3d(0px, 0px, 0px)
+	-moz-transition: all 0.2s ease-in-out
+	-o-transition: all 0.2s ease-in-out
+	-webkit-transition: all 0.2s ease-in-out
+	transition: all 0.2s ease-in-out
+
+.angle #exampleTextArea
+	-webkit-transform: translate3d(-90px, 0px, 0px)
+	transform: translate3d(-90px, 0px, 0px)
+
+#exampleText
+	font-family: sans-serif
+	font-size: 225px
+	font-size: 14.0625rem
+	line-height: 236px
+	line-height: 1.04889em
+	font-weight: normal
+	font-style: normal
+	display: block
+	-moz-transition: all 0.2s ease-in-out
+	-o-transition: all 0.2s ease-in-out
+	-webkit-transition: all 0.2s ease-in-out
+	transition: all 0.2s ease-in-out
+	-webkit-transform: rotateY(0deg) translate3d(-25px, 0px, -50px)
+	transform: rotateY(0deg) translate3d(-25px, 0px, -50px)
+	z-index: 1
+
+.angle #exampleText
+	-webkit-transform: rotateY(-60deg) translate3d(-140px, 0px, -50px)
+	transform: rotateY(-60deg) translate3d(-140px, 0px, -50px)
+
+.distance #exampleText
+	color: transparent
+	text-shadow: 0 0 10px white
+	-webkit-transform: rotateY(0deg) translate3d(-50px, 0, -400px)
+	transform: rotateY(0deg) translate3d(-50px, 0, -400px)
+
+.viewInfo, #viewInfo-one, #viewInfo-two, #viewInfo-three
+	color: #ffffff
+	text-align: center
+	position: absolute
+	-moz-transition: all 0.5s ease
+	-o-transition: all 0.5s ease
+	-webkit-transition: all 0.5s ease
+	transition: all 0.5s ease
+	opacity: 0
+	z-index: 2
+
+.ie8
+	.viewInfo, #viewInfo-one, #viewInfo-two, #viewInfo-three
+		font-family: sans-serif
+		font-size: 18px
+		font-size: 1.125rem
+		line-height: 29px
+		line-height: 1.61111em
+		font-weight: normal
+		font-style: normal
+		line-height: 23px
+
+@media (min-width: $screen-sm-min)
+	.viewInfo, #viewInfo-one, #viewInfo-two, #viewInfo-three
+		font-family: sans-serif
+		font-size: 18px
+		font-size: 1.125rem
+		line-height: 29px
+		line-height: 1.61111em
+		font-weight: normal
+		font-style: normal
+		line-height: 23px
+
+@media (max-width: $screen-xs-max)
+	.viewInfo, #viewInfo-one, #viewInfo-two, #viewInfo-three
+		font-family: sans-serif
+		font-size: 20px
+		font-size: 1.25rem
+		line-height: 31px
+		line-height: 1.55em
+		font-weight: normal
+		font-style: normal
+		line-height: 23px
+
+.detailing
+	.viewInfo, #viewInfo-one, #viewInfo-two, #viewInfo-three
+		opacity: 1
+
+.angle
+	.viewInfo, #viewInfo-one, #viewInfo-two, #viewInfo-three
+		opacity: 1
+
+.distance
+	.viewInfo, #viewInfo-one, #viewInfo-two, #viewInfo-three
+		opacity: 1
+
+#viewInfo-one
+	width: 160px
+	height: 277px
+	background: url(/img/view-info-one.svg) center top no-repeat
+	-webkit-transform: translate3d(-6px, -217px, 0)
+	transform: translate3d(-6px, -217px, 0)
+
+.angle #viewInfo-one
+	-webkit-transform: translate3d(85px, -192px, 0)
+	transform: translate3d(85px, -192px, 0)
+
+.distance #viewInfo-one
+	-webkit-transform: translate3d(87px, -185px, 0)
+	transform: translate3d(87px, -185px, 0)
+
+#viewInfo-one span
+	position: absolute
+	bottom: 0
+	left: 0
+
+#viewInfo-two
+	width: 230px
+	height: 154px
+	background: url(/img/view-info-two.svg) left bottom no-repeat
+	-webkit-transform: translate3d(287px, -277px, 0)
+	transform: translate3d(287px, -277px, 0)
+
+.angle #viewInfo-two
+	-webkit-transform: translate3d(204px, -275px, 0)
+	transform: translate3d(204px, -275px, 0)
+
+.distance #viewInfo-two
+	-webkit-transform: translate3d(287px, -277px, 0)
+	transform: translate3d(287px, -277px, 0)
+
+#viewInfo-two span
+	position: absolute
+	top: 0
+	right: 0
+	width: 230px
+	-moz-transition: all 0.5s ease
+	-o-transition: all 0.5s ease
+	-webkit-transition: all 0.5s ease
+	transition: all 0.5s ease
+
+.angle #viewInfo-two span
+	right: 35px
+
+#viewInfo-three
+	width: 182px
+	height: 155px
+	background: url(/img/view-info-three.svg) 63px top no-repeat
+	-webkit-transform: translate3d(447px, -95px, 0)
+	transform: translate3d(447px, -95px, 0)
+	span
+		padding: 0 10px
+
+.angle #viewInfo-three
+	-webkit-transform: translate3d(275px, -73px, 0)
+	transform: translate3d(275px, -73px, 0)
+
+.distance #viewInfo-three
+	-webkit-transform: translate3d(348px, -115px, 0)
+	transform: translate3d(348px, -115px, 0)
+
+#viewInfo-three span
+	position: absolute
+	bottom: 0
+	left: 0
+	right: 0
+
+.exampleOptions
+	margin: auto
+
+.ie8 .exampleOptions
+	width: 660px
+
+@media (min-width: $screen-sm-min)
+	.exampleOptions
+		width: 660px
+
+@media (max-width: $screen-xs-max)
+	input[type='range']::-webkit-slider-thumb
+		height: 50px
+		width: 50px
+		margin-top: -24px
+
+@media (max-width: $screen-xs-max)
+	input[type='range']::-moz-range-thumb
+		height: 50px
+		width: 50px
+
+@media all and (-ms-high-contrast: none)
+	input[type='range']
+		height: 60px
+		padding: 0
+		margin-top: 0
+		background: none
+		&::-ms-track
+			height: 1px
+			background: -ms-linear-gradient(left, $color--pri 0%, #ffffff 100%)
+	
+			color: transparent
+	\::-ms-fill-lower, ::-ms-fill-upper
+		height: 0
+		background: none
+	\::-ms-thumb
+		background: #ffffff
+		-moz-border-radius: 75%
+		-webkit-border-radius: 75%
+		border-radius: 75%
+		height: 25px
+		width: 25px
+		border: 0
+
+@media all and (-ms-high-contrast: none) and (max-width: 749px)
+	\::-ms-thumb
+		height: 50px
+		width: 50px
+
+@media all and (-ms-high-contrast: none)
+	\::-ms-track
+		padding: 0
+		background: none
+		border: 0
+	\::-ms-tooltip
+		display: none
+
+
+.plusButton
+	font-family: sans-serif
+	font-size: 40px
+	font-size: 2.5rem
+	line-height: 51px
+	line-height: 1.275em
+	font-weight: bold
+	font-style: normal
+	width: 60px
+	height: 60px
+	line-height: 60px
+	border: 1px solid $color--pri
+	color: $color--pri
+	display: block
+	text-align: center
+	float: left
+	margin-left: 10px
+
+.minusButton
+	font-family: sans-serif
+	font-size: 40px
+	font-size: 2.5rem
+	line-height: 51px
+	line-height: 1.275em
+	font-weight: bold
+	font-style: normal
+	width: 60px
+	height: 60px
+	line-height: 60px
+	border: 1px solid #ffffff
+	color: #ffffff
+	display: block
+	text-align: center
+	float: right
+	margin-right: 10px
+
+.Example
+	height: 410px
+	width: 620px
+	margin: auto
+	text-align: center
+	margin-bottom: 78px
+
+.negativeExample, .positiveExample
+	position: absolute
+	margin: auto
+	left: 0
+	right: 0
+	opacity: 0.5
+	height: 410px
+	width: 620px
+
+.negativeText, .positiveText
+	opacity: 0.2
+	padding: 0 30px
+	text-align: center
+	width: 50%
+	vertical-align: top
+	display: inline-block
+
+.ie8
+	.negativeText, .positiveText
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: normal
+		font-style: normal
+		line-height: 22px
+		line-height: 1.375em
+
+@media (min-width: $screen-sm-min)
+	.negativeText, .positiveText
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: normal
+		font-style: normal
+		line-height: 22px
+		line-height: 1.375em
+
+@media (max-width: $screen-xs-max)
+	.negativeText, .positiveText
+		font-family: sans-serif
+		font-size: 22px
+		font-size: 1.375rem
+		line-height: 33px
+		line-height: 1.5em
+		font-weight: normal
+		font-style: normal
+		line-height: 22px
+		line-height: 1.375em
+
+fieldset
+	border: none
+	padding: 0
+
+input, textarea, select, option
+	font-family: sans-serif
+	font-size: 20px
+	font-size: 1.25rem
+	line-height: 31px
+	line-height: 1.55em
+	font-weight: 300
+	font-style: normal
+	color: #333333
+
+input
+	&[type="text"], &[type="email"], &[type="password"], &[type="search"], &[type="tel"], &[type="number"]
+		border: none
+		background-color: #f3f3f3
+		-moz-border-radius: 3px
+		-webkit-border-radius: 3px
+		border-radius: 3px
+		-webkit-box-shadow: inset 1px 1px 1px 0 #cfcfcf
+		box-shadow: inset 1px 1px 1px 0 #cfcfcf
+
+textarea, .select
+	border: none
+	background-color: #f3f3f3
+	-moz-border-radius: 3px
+	-webkit-border-radius: 3px
+	border-radius: 3px
+	-webkit-box-shadow: inset 1px 1px 1px 0 #cfcfcf
+	box-shadow: inset 1px 1px 1px 0 #cfcfcf
+
+input
+	&[type="text"], &[type="email"], &[type="password"], &[type="search"], &[type="tel"], &[type="number"]
+		-webkit-appearance: none
+		padding: 0 10px
+
+textarea, select, option
+	-webkit-appearance: none
+	padding: 0 10px
+
+input
+	&[type="text"], &[type="email"], &[type="password"], &[type="search"], &[type="tel"]
+		width: 100%
+
+textarea, select, option
+	width: 100%
+
+input
+	&[type="text"]:focus, &[type="email"]:focus, &[type="password"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="number"]:focus
+		outline: none
+		-moz-outline-style: none
+
+textarea:focus, select, option, button
+	outline: none
+	-moz-outline-style: none
+
+input
+	&[type="text"], &[type="email"], &[type="password"], &[type="search"], &[type="tel"], &[type="number"]
+		height: 50px
+
+select, option
+	height: 50px
+
+\::-ms-clear
+	display: none
+
+.select
+	overflow: hidden
+	&:before
+		content: 'Å'
+		color: #333333
+		font-family: sans-serif
+		font-size: 14px
+		font-size: 0.875rem
+		line-height: 25px
+		line-height: 1.78571em
+		font-weight: normal
+		font-style: normal
+		top: 0
+		right: 10px
+		bottom: 0
+		position: absolute
+		margin: auto
+		height: 20px
+
+select
+	width: 110%
+	border: none
+	background: none
+	cursor: pointer
+	position: relative
+	&:-moz-focusring
+		color: transparent
+		text-shadow: 0 0 0 #333333
+		option
+			color: #333333
+			text-shadow: none
+
+label
+	padding: 25px 0 10px
+	display: block
+
+.submitButton
+	color: $color--pri
+	font-family: sans-serif
+	font-size: 15px
+	font-size: 0.9375rem
+	line-height: 26px
+	line-height: 1.73333em
+	font-weight: normal
+	font-style: normal
+	text-transform: uppercase
+	border: 2px solid $color--pri
+	background: none
+	width: 150px
+	height: 50px
+	cursor: pointer
+	margin-top: 30px
+	-moz-transition: all 0.2s ease
+	-o-transition: all 0.2s ease
+	-webkit-transition: all 0.2s ease
+	transition: all 0.2s ease
+	&:hover
+		color: #333333
+		border: 2px solid #333333
+
+#Form.Overlay-content
+	max-width: 500px
+	margin: auto
+
+input.error
+	border: 1px solid red
+
+.submitFeedback
+	div
+		font-family: sans-serif
+		font-size: 16px
+		font-size: 1rem
+		line-height: 27px
+		line-height: 1.6875em
+		font-weight: normal
+		font-style: normal
+		line-height: 22px
+		height: 50px
+		margin-top: 30px
+	.error
+		color: red
+		padding-left: 40px
+		&:before
+			content: 'F'
+			font-family: sans-serif
+			font-size: 60px
+			font-size: 3.75rem
+			line-height: 71px
+			line-height: 1.18333em
+			font-weight: normal
+			font-style: normal
+			position: absolute
+			left: -30px
+			top: -9px
+	.success
+		line-height: 50px
+		padding-left: 30px
+		color: #333333
+		&:after
+			content: '{'
+			font-family: sans-serif
+			font-size: 60px
+			font-size: 3.75rem
+			line-height: 71px
+			line-height: 1.18333em
+			font-weight: normal
+			font-style: normal
+			position: absolute
+			right: -15px
+			top: -10px
+
+.Grid
+	list-style: none
+	margin: 0
+	padding: 0
+	margin-left: -20px
+
+.Grid-item
+	display: inline-block
+	padding-left: 20px
+	vertical-align: top
+
+.oneHalf, .fontExample-tab
+	width: 50%
+
+.oneThird, .iconSet
+	width: 33.333%
+
+.twoThird, .iconSet
+	width: 66%
+
+.topRight
+	position: absolute
+	margin: auto
+	top: 0
+	right: 0
+	bottom: auto
+	left: auto
+
+.topLeft
+	position: absolute
+	margin: auto
+	top: 0
+	right: auto
+	bottom: auto
+	left: 0
+
+.bottomRight
+	position: absolute
+	margin: auto
+	top: auto
+	right: 0
+	bottom: 0
+	left: auto
+
+.bottomLeft
+	position: absolute
+	margin: auto
+	top: auto
+	right: auto
+	bottom: 0
+	left: 0
+
+.bottom
+	position: absolute
+	margin: auto
+	top: auto
+	right: 0
+	bottom: 0
+	left: 0
+
+.left
+	float: left
+
+.right
+	float: right
+
+.block
+	display: block
+
+.microPaddingTop
+	padding-top: 10px
+
+.smallestPaddingTop, .Overlay-bigChar, .Overlay-negativebigChar
+	padding-top: 15px
+
+.smallerPaddingTop
+	padding-top: 20px
+
+.smallPaddingTop
+	padding-top: 25px
+
+.biggestPaddingTop
+	padding-top: 45px
+
+.superPaddingTop
+	padding-top: 70px
+
+.iconSet
+	padding  						: 20px 5px 0
+	text-align 						: center
+
+.paddingLeft
+	padding-left: 35px !important
+
+.ie8
+	.extraPaddingRight
+		padding-right: 180px
+	.superPaddingRight
+		padding-right: 300px
+
+@media (min-width: $screen-sm-min)
+	.extraPaddingRight
+		padding-right: 180px
+
+@media (max-width: $screen-xs-max)
+	.extraPaddingRight
+		padding-right: 80px
+
+@media (min-width: $screen-sm-min)
+	.superPaddingRight
+		padding-right: 300px
+
+@media (max-width: $screen-xs-max)
+	.superPaddingRight
+		padding-right: 230px
+
+.mediumMarginTop, .Overlay-smallChar, .Overlay-negativesmallChar
+	margin-top: 30px
+
+.smallerMarginTop
+	margin-top: 20px
+
+.smallestMarginBottom
+	margin-bottom: 15px
+
+.noMargin
+	margin: 0
+
+@media (max-width: $screen-xs-max)
+	.hidePortable, .Share-text
+		display: none
+
+.fullWidth
+	width: 100%
+
+.whiteBg
+	background: #ffffff
+	color: #232323
+
+.noselect, .plusButton, .minusButton
+	-webkit-touch-callout: none
+	-webkit-user-select: none
+	-khtml-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+
+.hide
+	display: none
+
+.bigIndentFix
+	margin-left: -16px
+
+.mediumIndentFix
+	margin-left: -9px
+
+.smallIndentFix
+	margin-left: -6px
+
+.smallerIndentFix
+	margin-left: -4px
 
 	
